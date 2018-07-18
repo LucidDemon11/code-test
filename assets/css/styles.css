@@ -1,0 +1,48 @@
+/* Disable text area resizing */
+textarea {
+    resize: none;
+}
+
+/* Text color area */
+.blue-text {
+    color: #337ab7;
+}
+
+.green-text {
+    color: #5cb85c;
+}
+
+.red-text {
+    color: #d9534f;
+}
+
+/* Set the location of the modal to be the center of the page and scroll is needed */
+.modal .modal-content {
+    margin: 10%;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+/* Center the main landing content area */
+#mainContentArea {
+    float: none;
+    margin: 0 auto;
+}
+
+/* Set the properties for the top bar of the page */
+#topNavBar {
+    height: 80px;
+    font-size: 200%;
+}
+
+/* Position the labels that are displayed after clicking the Check Answer button */
+.teacher-labels {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* Provide a bit of a buffer */
+.btnCheckAnswer {
+    margin-top: 2px;
+}
